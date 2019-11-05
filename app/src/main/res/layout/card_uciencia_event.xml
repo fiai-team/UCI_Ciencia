@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.tibolte.agendacalendarview.agenda.AgendaEventView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_6sdp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardElevation="@dimen/_5sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <com.github.abdularis.civ.AvatarImageView
+                    android:id="@+id/aivAuthor"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:gravity="center_vertical"
+                    app:highlightEnable="false"
+                    app:text="!"
+                    app:textSize="@dimen/_40sdp"
+                    app:textColor="@color/colorPrimaryDark"
+                    app:avatarBackgroundColor="@color/colorPrimaryLight" />
+
+                <TextView
+                    android:id="@+id/tvEventTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorPrimaryLight"
+                    android:text="Titulo"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_15sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llEventLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:id="@+id/itvMarcador"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="{md-place @dimen/_18sdp}"/>
+
+                <TextView
+                    android:id="@+id/tvEventLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="@string/app_name"
+                    android:textColor="@color/md_secondary_text_icons_white"
+                    android:textSize="@dimen/_12sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llEventTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:id="@+id/itvTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="{md-access-time @dimen/_18sdp}"/>
+
+                <TextView
+                    android:id="@+id/tvEventTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="@string/app_name"
+                    android:textColor="@color/md_secondary_text_icons_white"
+                    android:textSize="@dimen/_12sdp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</com.github.tibolte.agendacalendarview.agenda.AgendaEventView>

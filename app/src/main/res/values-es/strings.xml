@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">UCIENCIA 2018</string>
+
+    <string name="string_uciencia">III Conferencia Científica Internacional</string>
+    <string name="string_uci">Universidad de las Ciencias Informáticas</string>
+
+    <string name="uciencia_mail">uciencia@uci.cu</string>
+    <string name="uciencia_web">https://uciencia.uci.cu</string>
+    <string name="uciencia_phone_1">+53 7837 2573</string>
+    <string name="uciencia_phone_2">+53 7837 2577</string>
+
+    <string name="nav_drawer_1">UCIENCIA 2018</string>
+    <string name="nav_drawer_2">Conferencias Magistrales</string>
+    <string name="nav_drawer_3">Talleres</string>
+    <string name="nav_drawer_4">Programa</string>
+    <string name="nav_drawer_5">Mapa</string>
+    <string name="nav_drawer_6">Acerca de</string>
+
+    <string name="string_see_map">Ver mapa</string>
+    <string name="string_send_email">Enviar correo electrónico</string>
+    <string name="string_send_email_with">Enviar correo electrónico con…</string>
+    <string name="string_to_uciencia">Para UCIENCIA</string>
+    <string name="string_cannot_send_email">Ninguna aplicación puede realizar esta acción.</string>
+
+    <string name="string_calling">Llamando…</string>
+    <string name="string_exit">Salir</string>
+    <string name="string_objectives">Objetivos</string>
+    <string name="string_workshop">Taller</string>
+    <string name="string_cordinator">Cordinador:</string>
+
+    <string name="string_cannot_calling">No es posible realizar llamadas.</string>
+
+    <string name="title_main_fragment">III Conferencia Científica Internacional UCIENCIA 2018</string>
+    <string name="main_fragment_text_1">La III Conferencia Científica Internacional UCIENCIA de la Universidad de las Ciencias Informáticas (UCI) convoca a los profesionales vinculados a las actividades de formación, investigación y desarrollo, en el campo de la informática, las ciencias de la computación y sus aplicaciones, a participar en las actividades científicas del evento.</string>
+    <string name="main_fragment_objective_1">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} Propiciar un espacio para el intercambio de experiencias, reflexiones y resultados en torno a la actividad científico-técnica, I+D+i y formativa en el campo de las ciencias informáticas y de la computación.</string>
+    <string name="main_fragment_objective_2">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} Divulgar los resultados de las investigaciones desarrolladas en estos campos.</string>
+    <string name="main_fragment_objective_3">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} Promover la cooperación entre instituciones nacionales y extranjeras.</string>
+    <string name="main_fragment_taller_1">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} VIII Taller internacional de SW Libre</string>
+    <string name="main_fragment_taller_2">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} VI Taller internacional de Inteligencia Artificial y Reconocimiento de Patrones</string>
+    <string name="main_fragment_taller_3">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} III Taller internacional de Impacto de las TIC en la Sociedad</string>
+    <string name="main_fragment_taller_4">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} VIII Congreso Iberoamericano de Ingeniería de Proyectos</string>
+    <string name="main_fragment_taller_5">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} III Taller internacional de Matemática Computacional</string>
+    <string name="main_fragment_taller_6">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} III Taller internacional de Ingeniería y Calidad de Software</string>
+    <string name="main_fragment_taller_7">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} III Simposio Enseñanza de las Ciencias Informáticas</string>
+    <string name="main_fragment_taller_8">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} II Taller internacional de Extensión Universitaria</string>
+    <string name="main_fragment_taller_9">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} I Taller internacional de Ciberseguridad</string>
+
+    <string name="workshop_1">VIII Taller internacional de SW Libre</string>
+    <string name="workshop_2">VI Taller internacional de Inteligencia Artificial y Reconocimiento de Patrones</string>
+    <string name="workshop_3">III Taller internacional de Impacto de las TIC en la Sociedad</string>
+    <string name="workshop_4">VIII Congreso Iberoamericano de Ingeniería de Proyectos</string>
+    <string name="workshop_5">III Taller internacional de Matemática Computacional</string>
+    <string name="workshop_6">III Taller internacional de Ingeniería y Calidad de Software</string>
+    <string name="workshop_7">III Simposio Enseñanza de las Ciencias Informáticas</string>
+    <string name="workshop_8">II Taller internacional de Extensión Universitaria</string>
+    <string name="workshop_9">I Taller internacional de Ciberseguridad</string>
+
+    <string name="string_monday">Lunes</string>
+    <string name="string_tuesday">Martes</string>
+    <string name="string_wednesday">Miércoles</string>
+    <string name="string_thursday">Jueves</string>
+    <string name="string_friday">Viernes</string>
+    <string name="string_saturday">Sábado</string>
+    <string name="string_sunday">Domingo</string>
+
+    <string name="event_01">Acreditación para delegados de la Universidad de las Ciencias Informáticas (UCI)</string>
+    <string name="event_02">Acreditación para delegados externos</string>
+    <string name="event_03">Almuerzo</string>
+    <string name="event_04">Actividades recreativas en la UCI</string>
+    <string name="event_05">Recorrido histórico-cultural por La Habana</string>
+    <string name="event_06">Cena</string>
+    <string name="event_07">Peña cultural</string>
+    <string name="event_08">Desayuno</string>
+    <string name="event_09">Acreditación para delegados externos</string>
+    <string name="event_10">Ceremonia inaugural</string>
+    <string name="event_11">Conferencia Magistral: \"The Evolution of Cyber Security with the Emergence of Internet of Things\"</string>
+    <string name="event_12">Foto oficial</string>
+    <string name="event_13">Coffee-break</string>
+    <string name="event_14">Inauguración Aula CIMNE</string>
+    <string name="event_15">Sesiones científicas de los talleres del evento</string>
+    <string name="event_16">Almuerzo</string>
+    <string name="event_17">Apertura Stand Springer – Ediciones Futuro</string>
+    <string name="event_18">Apertura de Stand ISQI</string>
+    <string name="event_19">Sesiones científicas de los talleres del evento</string>
+    <string name="event_20">Exposición de Soluciones Informáticas</string>
+    <string name="event_21">Presentaciones de libros y revistas</string>
+    <string name="event_22">Visita Sala de Historia UCI</string>
+    <string name="event_23">Coffee-break</string>
+    <string name="event_24">Siembra del árbol UCIENCIA 2018</string>
+    <string name="event_25">Cóctel de bienvenida</string>
+    <string name="event_26">Desayuno</string>
+    <string name="event_27">Conferencia Magistral: \"Some Big Data and High Performance Data Analytics Challenges\"</string>
+    <string name="event_28">Conferencia Magistral: \"Smart Universities\"</string>
+    <string name="event_29">Conferencia Magistral: \"Improving Explanatory Power Of Machine Learning In The Symbolic Data Analysis Framework\"</string>
+    <string name="event_30">Conferencia Magistral: \"BioCubaFarma, las empresas de alta tecnología y la gestión de proyectos\"</string>
+    <string name="event_31">Coffee-break</string>
+    <string name="event_32">Sesiones científicas de los talleres del evento</string>
+    <string name="event_33">Almuerzo</string>
+    <string name="event_34">Sesiones científicas de los talleres del evento</string>
+    <string name="event_35">Torneo de ajedrez</string>
+    <string name="event_36">Exposición de Soluciones Informáticas</string>
+    <string name="event_37">Presentaciones de libros y revistas</string>
+    <string name="event_38">Coffee-break</string>
+    <string name="event_39">Maratón-caminata UCIENCIA 2018</string>
+    <string name="event_40">Cena</string>
+    <string name="event_41">Visita al Complejo Morro-Cabaña (ceremonia cañonazo)</string>
+    <string name="event_42">Desayuno</string>
+    <string name="event_43">Conferencia Magistral: \"CIMNE y su nuevo modelo de innovación\"</string>
+    <string name="event_44">Conferencia Magistral: \"La universidad del futuro: una institución sustentada en la comunicación y las redes de trabajo\"</string>
+    <string name="event_45">Coffee-break</string>
+    <string name="event_46">Sesiones científicas de los talleres del evento</string>
+    <string name="event_47">Clausura del evento</string>
+
+    <string name="string_conected_future">Conectados al futuro …</string>
+    <string name="string_conected_revolution">conectados a la Revolución</string>
+
+    <string name="jaime">Jaime Alan Gutiérrez Cruz</string>
+    <string name="yanelis">Yanelis Cedeño Bastida</string>
+    <string name="lisandra">Lisandra Tamayo Marrero</string>
+    <string name="string_desarrolladores">Desarrolladores</string>
+    <string name="string_libs_open_source">Librerías Open Source</string>
+    <string name="current_year">2018</string>
+
+    <string name="string_chairman">Presidente</string>
+    <string name="string_keynote">Conferencia</string>
+    <string name="string_panel">Panel</string>
+
+</resources>

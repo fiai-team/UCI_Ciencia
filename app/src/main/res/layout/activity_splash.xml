@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_20sdp"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryLight"
+        android:textSize="@dimen/_35sdp"
+        android:textStyle="bold"
+        android:text="@string/string_uciencia"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <com.github.jorgecastillo.FillableLoader
+            android:id="@+id/fillableLoader"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:gravity="center"
+            app:fl_fillColor="@color/colorPrimaryLight"
+            app:fl_strokeColor="@color/colorPrimaryLight"
+            app:fl_strokeWidth="@dimen/_1sdp"
+            app:fl_originalWidth="960"
+            app:fl_originalHeight="191"
+            app:fl_strokeDrawingDuration="2500"
+            app:fl_fillDuration="2500"
+            app:fl_clippingTransform="waves" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20sdp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryLight"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="italic"
+            android:text="@string/string_uci"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="@dimen/_60sdp"
+        app:srcCompat="@drawable/uci_svg"
+        android:tint="@color/colorPrimaryLight"/>
+
+    <ImageView
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_gravity="bottom|center"
+        app:srcCompat="@drawable/fici_svg"
+        android:tint="@color/colorPrimaryLight"/>
+
+    <ImageView
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/_60sdp"
+        app:srcCompat="@drawable/fiai_svg"
+        android:tint="@color/colorPrimaryLight"/>
+
+</android.support.design.widget.CoordinatorLayout>

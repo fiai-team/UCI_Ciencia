@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">UCIENCIA 2018</string>
+
+    <string name="string_uciencia">III International Scientific Conference</string>
+    <string name="string_uci">University of Informatics Sciences</string>
+
+    <string name="uciencia_mail">uciencia@uci.cu</string>
+    <string name="uciencia_web">https://uciencia.uci.cu</string>
+    <string name="uciencia_phone_1">+53 7837 2573</string>
+    <string name="uciencia_phone_2">+53 7837 2577</string>
+
+    <string name="nav_drawer_1">UCIENCIA 2018</string>
+    <string name="nav_drawer_2">Keynotes</string>
+    <string name="nav_drawer_3">Workshops</string>
+    <string name="nav_drawer_4">Schedule</string>
+    <string name="nav_drawer_5">Map</string>
+    <string name="nav_drawer_6">About us</string>
+
+    <string name="string_see_map">See map</string>
+    <string name="string_send_email">Send email</string>
+    <string name="string_send_email_with">Send email with…</string>
+    <string name="string_to_uciencia">To UCIENCIA</string>
+    <string name="string_cannot_send_email">No apps can perform this action.</string>
+
+    <string name="string_calling">Calling…</string>
+    <string name="string_exit">Exit</string>
+    <string name="string_objectives">Objectives</string>
+    <string name="string_workshop">Workshop</string>
+    <string name="string_cordinator">Cordinator:</string>
+
+    <string name="string_cannot_calling">It is not possible to make calls.</string>
+
+    <string name="title_main_fragment">III International Scientific Conference UCIENCIA 2018</string>
+    <string name="main_fragment_text_1">The III International Scientific Conference UCIENCIA of the University of Informatics Sciences (UCI) invite researchers, academics and software developers in the field of informatics and computer science and applications, to participate in the conference scitific activities.</string>
+    <string name="main_fragment_objective_1">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} To provide opportunities for the exchange of experiences, reflections and results of technical and scientific activity; R + D + i and education in the field of informatics and computer sciences.</string>
+    <string name="main_fragment_objective_2">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} To display the results of researches developed in these fields.</string>
+    <string name="main_fragment_objective_3">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} To promote cooperation between national and foreign institutions.</string>
+    <string name="main_fragment_taller_1">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} VIII International Workshop on Free Software</string>
+    <string name="main_fragment_taller_2">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} VI International Workshop on Artificial Intelligence and Pattern Recognition</string>
+    <string name="main_fragment_taller_3">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} III International Workshop on the Impact of ICT on Society</string>
+    <string name="main_fragment_taller_4">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} VIII Ibero-American Congress on Project Engineering</string>
+    <string name="main_fragment_taller_5">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} III International Workshop on Computational Mathematics</string>
+    <string name="main_fragment_taller_6">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} III International Workshop on Software Engineering and Quality</string>
+    <string name="main_fragment_taller_7">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} III Symposium on Computer Science Teaching</string>
+    <string name="main_fragment_taller_8">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} II International Workshop on Extra Curricular University Activities</string>
+    <string name="main_fragment_taller_9">{md-star @color/colorPrimaryDark spin @dimen/_21sdp} I International Workshop on Cybersecurity</string>
+
+    <string name="workshop_1">VIII International Workshop on Free Software</string>
+    <string name="workshop_2">VI International Workshop on Artificial Intelligence and Pattern Recognition</string>
+    <string name="workshop_3">III International Workshop on the Impact of ICT on Society</string>
+    <string name="workshop_4">VIII Ibero-American Congress on Project Engineering</string>
+    <string name="workshop_5">III International Workshop on Computational Mathematics</string>
+    <string name="workshop_6">III International Workshop on Software Engineering and Quality</string>
+    <string name="workshop_7">III Symposium on Computer Science Teaching</string>
+    <string name="workshop_8">II International Workshop on Extra Curricular University Activities</string>
+    <string name="workshop_9">I International Workshop on Cybersecurity</string>
+
+    <string name="string_monday">Monday</string>
+    <string name="string_tuesday">Tuesday</string>
+    <string name="string_wednesday">Wednesday</string>
+    <string name="string_thursday">Thursday</string>
+    <string name="string_friday">Friday</string>
+    <string name="string_saturday">Saturday</string>
+    <string name="string_sunday">Sunday</string>
+
+    <string name="event_01">Accreditation for delegates of the University of Informatics Sciences (UCI)</string>
+    <string name="event_02">Accreditation for external delegates</string>
+    <string name="event_03">Lunch</string>
+    <string name="event_04">Recreational activities in the UCI</string>
+    <string name="event_05">Historical-cultural tour of Havana</string>
+    <string name="event_06">Dinner</string>
+    <string name="event_07">Cultural activity</string>
+    <string name="event_08">Breakfast</string>
+    <string name="event_09">Accreditation for external delegates</string>
+    <string name="event_10">Inaugural ceremony</string>
+    <string name="event_11">Keynote: \"The Evolution of Cyber Security with the Emergence of Internet of Things\"</string>
+    <string name="event_12">Official photo</string>
+    <string name="event_13">Coffee-break</string>
+    <string name="event_14">Inauguration CIMNE Classroom</string>
+    <string name="event_15">Scientific sessions of the event workshops</string>
+    <string name="event_16">Lunch</string>
+    <string name="event_17">Opening Stand Springer-Ediciones Futuro</string>
+    <string name="event_18">Opening of ISQI Stand</string>
+    <string name="event_19">Scientific sessions of the event workshops</string>
+    <string name="event_20">Exhibition of Computer Solutions</string>
+    <string name="event_21">Presentations of books and magazines</string>
+    <string name="event_22">Visit UCI History Room</string>
+    <string name="event_23">Coffee-break</string>
+    <string name="event_24">Sowing the tree UCIENCIA 2018</string>
+    <string name="event_25">Welcome cocktail</string>
+    <string name="event_26">Breakfast</string>
+    <string name="event_27">Keynote: \"Some Big Data and High Performance Data Analytics Challenges\"</string>
+    <string name="event_28">Keynote: \"Smart Universities\"</string>
+    <string name="event_29">Keynote: \"Improving Explanatory Power Of Machine Learning In The Symbolic Data Analysis Framework\"</string>
+    <string name="event_30">Keynote: \"BioCubaFarma, las empresas de alta tecnología y la gestión de proyectos\"</string>
+    <string name="event_31">Coffee-break</string>
+    <string name="event_32">Scientific sessions of the event workshops</string>
+    <string name="event_33">Lunch</string>
+    <string name="event_34">Scientific sessions of the event workshops</string>
+    <string name="event_35">Chess tournament</string>
+    <string name="event_36">Exhibition of Computer Solutions</string>
+    <string name="event_37">Presentations of books and magazines</string>
+    <string name="event_38">Coffee-break</string>
+    <string name="event_39">UCIENCIA 2018 Marathon-walk</string>
+    <string name="event_40">Dinner</string>
+    <string name="event_41">Visit to the Morro-Cabaña Complex (Cannon Shot Ceremony)</string>
+    <string name="event_42">Breakfast</string>
+    <string name="event_43">Keynote: \"CIMNE y su nuevo modelo de innovación\"</string>
+    <string name="event_44">Keynote: \"La universidad del futuro: una institución sustentada en la comunicación y las redes de trabajo\"</string>
+    <string name="event_45">Coffee-break</string>
+    <string name="event_46">Scientific sessions of the event workshops</string>
+    <string name="event_47">Closing ceremony</string>
+
+    <string name="string_conected_future">Conectados al futuro …</string>
+    <string name="string_conected_revolution">conectados a la Revolución</string>
+
+    <string name="jaime">Jaime Alan Gutiérrez Cruz</string>
+    <string name="yanelis">Yanelis Cedeño Bastida</string>
+    <string name="lisandra">Lisandra Tamayo Marrero</string>
+    <string name="string_desarrolladores">Developers</string>
+    <string name="string_libs_open_source">Open Source Libraries</string>
+    <string name="current_year">2018</string>
+
+    <string name="string_chairman">Chairman</string>
+    <string name="string_keynote">Keynote</string>
+    <string name="string_panel">Panel</string>
+
+</resources>

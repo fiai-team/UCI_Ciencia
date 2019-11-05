@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColorPrimary">@color/md_text</color>
+    <color name="textColorSecondary">@color/md_blue_grey_900</color>
+    <color name="textColorDisabled">@color/md_black_1000_50</color>
+
+    <color name="colorUCI">#05235E</color>
+
+    <color name="colorPrimary">@color/md_indigo_900</color>
+    <color name="colorPrimaryDark">@color/colorUCI</color>
+    <color name="colorPrimaryLight">@color/md_indigo_100</color>
+
+    <color name="colorAccent">@color/md_red_A700</color>
+    <color name="colorAccentSecondary">@color/md_red_100</color>
+    <color name="colorBackground">@color/md_white_1000</color>
+    <color name="bgDrawer">@color/md_indigo_50</color>
+    <color name="colorBack">@color/md_red_A700</color>
+    <color name="black_overlay">@color/md_black_1000_50</color>
+    <color name="transparent">#00000000</color>
+    <color name="card_background">@color/md_indigo_50</color>
+</resources>

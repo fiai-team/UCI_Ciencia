@@ -1,0 +1,235 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/containerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_root_calling_about"
+    tools:context=".fragment.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        android:gravity="center_horizontal">
+
+        <cu.uci.fiai.uciencia.util.shimmer.ShimmerFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:shimmer_colored="true"
+            app:shimmer_base_color="@color/colorPrimary"
+            app:shimmer_highlight_alpha="1"
+            app:shimmer_highlight_color="@color/colorPrimaryLight"
+            app:shimmer_duration="3000">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    app:srcCompat="@drawable/uci_logo_letras"
+                    android:tint="@color/colorPrimary"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_conected_future"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_conected_revolution"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+        </cu.uci.fiai.uciencia.util.shimmer.ShimmerFrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/string_desarrolladores"
+            android:textStyle="bold"
+            android:textSize="@dimen/_21sdp"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jaime"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yanelis"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lisandra"
+            android:textSize="@dimen/_18sdp"/>
+
+        <cu.uci.fiai.uciencia.util.shimmer.ShimmerFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:shimmer_colored="true"
+            app:shimmer_base_color="@color/colorPrimary"
+            app:shimmer_highlight_alpha="1"
+            app:shimmer_highlight_color="@color/colorPrimaryLight"
+            app:shimmer_duration="3000">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_170sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/fiai"
+                android:tint="@color/colorPrimary" />
+
+        </cu.uci.fiai.uciencia.util.shimmer.ShimmerFrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="@string/string_libs_open_source"
+            android:textStyle="bold"
+            android:textSize="@dimen/_21sdp"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agenda Calendar View"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boom Menu"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Circular Image View"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fillable Loaders"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flowing Drawer"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iconify"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maps Forge"
+            android:textSize="@dimen/_18sdp"/>
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NotifyMe"
+            android:textSize="@dimen/_18sdp"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SDP Android"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shimmer"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SQLite Asset Helper"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swipe Back Layout"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vega Layout"
+            android:textSize="@dimen/_18sdp"/>
+
+        <cu.uci.fiai.uciencia.util.shimmer.ShimmerFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:shimmer_colored="true"
+            app:shimmer_base_color="@color/colorPrimary"
+            app:shimmer_highlight_alpha="1"
+            app:shimmer_highlight_color="@color/colorPrimaryLight"
+            app:shimmer_duration="3000">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                    android:paddingTop="@dimen/_21sdp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/fici_png"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/current_year"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+        </cu.uci.fiai.uciencia.util.shimmer.ShimmerFrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
